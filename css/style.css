@@ -1,10 +1,22 @@
 :root {
   --text-color: #212121;
-  --title-color: #FFFFFF;
+  --title-color: #ffffff;
   --subtext-color: #757575;
-  --bg-color: #2F303A;
-  --subtitle-color: #2196F3;
-  --text2-color: #000;
+  --bg-color: #2f303a;
+  --subtitle-color: #2196f3;
+  --text1-color: #000;
+}
+.conteiner {
+  width: 1169px;
+  outline: solid red;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header {
+  padding-top: 25px;
+  padding-bottom: 24px;
 }
 
 .header-title {
@@ -66,7 +78,11 @@
   line-height: normal;
   letter-spacing: 0.28px;
 }
-
+.effective {
+  background: var(--bg-color);
+  padding-top: 200px;
+  padding-bottom: 160px;
+}
 .effective-title {
   color: var(--title-color);
   text-align: center;
@@ -75,11 +91,10 @@
   font-style: normal;
   font-weight: 900;
   line-height: 60px;
-  /* 136.364% */
+
   letter-spacing: 2.64px;
   text-transform: uppercase;
   width: 696px;
-  flex-shrink: 0;
 }
 
 .effective-button {
@@ -96,14 +111,11 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 216px;
   height: 50px;
-  flex-shrink: 0;
 }
 
-.effective {
-  background: var(--bg-color);
-  width: 1600px;
-  height: 600px;
-  flex-shrink: 0;
+.warning {
+  padding-top: 134px;
+  padding-bottom: 94px;
 }
 
 .warning-title {
@@ -125,11 +137,13 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  /* 171.429% */
   letter-spacing: 0.42px;
   width: 270px;
   height: 72px;
-  flex-shrink: 0;
+}
+.engaged {
+  padding-top: 94px;
+  padding-bottom: 85px;
 }
 
 .engaged-title {
@@ -146,8 +160,11 @@
 .engaged-photo {
   width: 370px;
   height: 294px;
-  flex-shrink: 0;
-display: block;
+  display: block;
+}
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-title {
@@ -165,7 +182,8 @@ display: block;
   width: 270px;
   height: 260px;
   flex-shrink: 0;
-  background: url(<path-to-image>) lightgray -86.437px -3.457px / 196.208% 136.002% no-repeat;
+  background: url(<path-to-image>) lightgray -86.437px -3.457px / 196.208%
+    136.002% no-repeat;
 }
 
 .team-subtitle {
@@ -192,9 +210,8 @@ display: block;
 
 .footer {
   background: var(--bg-color);
-  width: 1600px;
-  height: 252px;
-  flex-shrink: 0;
+  padding-top: 94px;
+  padding-bottom: 60px;
 }
 
 .footer-title {
@@ -231,7 +248,7 @@ display: block;
 }
 
 .footer-mail {
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -244,7 +261,7 @@ display: block;
 }
 
 .footer-tel {
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -260,8 +277,8 @@ display: block;
   border-radius: 4px;
   background: var(--subtitle-color);
 
-
-  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
   width: 73px;
   height: 38px;
   flex-shrink: 0;
