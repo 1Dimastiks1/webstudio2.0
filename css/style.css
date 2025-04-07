@@ -29,15 +29,6 @@
   letter-spacing: 0.78px;
 }
 
-.header-span {
-  color: var(--subtitle-color);
-  font-family: Raleway;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.78px;
-}
 
 .header-link1 {
   color: var(--subtitle-color);
