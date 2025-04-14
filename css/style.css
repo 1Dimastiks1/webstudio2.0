@@ -19,6 +19,18 @@
   padding-bottom: 13px;
 }
 
+.header-conteiner {
+display: flex;
+}
+ 
+.webstudio {
+  margin-right: 93px;
+}
+
+.header-navigation {
+  display: flex;
+}
+
 .header-title {
   color: var(--text2-color);
   font-family: Raleway;
@@ -78,6 +90,12 @@
   line-height: normal;
   letter-spacing: 0.28px;
 }
+
+.header-list {
+  display:flex ;
+  gap: 50px;
+}
+
 .effect {
   background: var(--bg-color);
   padding-top: 200px;
@@ -91,10 +109,12 @@
   font-style: normal;
   font-weight: 900;
   line-height: 60px;
+  max-width: 696px;
 
   letter-spacing: 2.64px;
   text-transform: uppercase;
   width: 696px;
+  margin-bottom: 30px;
 }
 
 .effect-button {
@@ -117,6 +137,10 @@
   padding-top: 134px;
   padding-bottom: 94px;
 }
+.warning-list {
+  display: flex;
+  gap: 30px;
+}
 
 .warning-title {
   color: var(--text-color);
@@ -128,6 +152,7 @@
   letter-spacing: 0.42px;
   text-transform: uppercase;
   width: 270px;
+  margin-bottom: 10px;
 }
 
 .warning-text {
@@ -155,6 +180,11 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
+  margin-bottom: 50px;
+}
+.engaged-list {
+  display: flex;
+  gap: 30px;
 }
 
 .engaged-photo {
@@ -167,6 +197,11 @@
   padding-bottom: 94px;
 }
 
+.team-list {
+display: flex;
+gap: 30px;
+}
+
 .team-title {
   color: var(--text-color);
   text-align: center;
@@ -176,6 +211,7 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
+  margin-bottom: 50px;
 }
 
 .team-photo {
@@ -183,6 +219,7 @@
   height: 260px;
   background: url(<path-to-image>) lightgray -86.437px -3.457px / 196.208%
     136.002% no-repeat;
+    margin-bottom: 30px;
 }
 
 .team-subtitle {
@@ -205,6 +242,7 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.48px;
+  margin-bottom: 50px;
 }
 
 .footer {
@@ -243,6 +281,7 @@
   letter-spacing: 0.42px;
   width: 231px;
   height: 21px;
+  margin-top: 20px;
 }
 
 .footer-mail {
@@ -256,6 +295,7 @@
   width: 136px;
   height: 21px;
   flex-shrink: 0;
+  margin-top: 9px;
 }
 
 .footer-tel {
@@ -268,6 +308,7 @@
   letter-spacing: 0.42px;
   width: 231px;
   height: 21px;
+  margin-top: 9px;
 }
 .button-btn {
   border-radius: 4px;
