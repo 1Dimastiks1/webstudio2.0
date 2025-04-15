@@ -16,15 +16,14 @@
 }
 .header {
   padding-top: 24px;
-  padding-bottom: 13px;
+  padding-bottom: 25px;
 }
 
 .header-conteiner {
-display: flex;
+  display: flex;
 }
- 
 .webstudio {
-  margin-right: 93px;
+  margin-right: 33px;
 }
 
 .header-navigation {
@@ -41,6 +40,10 @@ display: flex;
   letter-spacing: 0.78px;
 }
 
+.header-contacts {
+  display: flex;
+  gap: 50px;
+}
 
 .header-link1 {
   color: var(--subtitle-color);
@@ -49,7 +52,7 @@ display: flex;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  letter-spacing: 0.28px;
+  letter-spacing: 0.28p;
 }
 
 .header-link2 {
@@ -92,14 +95,15 @@ display: flex;
 }
 
 .header-list {
-  display:flex ;
+  display: flex;
   gap: 50px;
+  padding-right: 344px;
 }
 
 .effect {
   background: var(--bg-color);
   padding-top: 200px;
-  padding-bottom: 160px;
+  padding-bottom: 200px;
 }
 .effect-title {
   color: var(--title-color);
@@ -110,11 +114,12 @@ display: flex;
   font-weight: 900;
   line-height: 60px;
   max-width: 696px;
-
   letter-spacing: 2.64px;
   text-transform: uppercase;
   width: 696px;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .effect-button {
@@ -131,10 +136,12 @@ display: flex;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 216px;
   height: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .warning {
-  padding-top: 134px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .warning-list {
@@ -166,10 +173,6 @@ display: flex;
   width: 270px;
   height: 72px;
 }
-.engaged {
-  padding-top: 94px;
-  padding-bottom: 85px;
-}
 
 .engaged-title {
   color: var(--text-color);
@@ -194,12 +197,12 @@ display: flex;
 }
 .team {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 124px;
 }
 
 .team-list {
-display: flex;
-gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .team-title {
@@ -219,7 +222,7 @@ gap: 30px;
   height: 260px;
   background: url(<path-to-image>) lightgray -86.437px -3.457px / 196.208%
     136.002% no-repeat;
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .team-subtitle {
@@ -231,6 +234,7 @@ gap: 30px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.48px;
+  margin-bottom: 10px;
 }
 
 .team-text {
@@ -335,7 +339,24 @@ gap: 30px;
 .button {
   padding-top: 94px;
   padding-bottom: 34px;
+  display: flex;
+  margin-left: auto;
+margin-right: auto;
 }
+.button-list {
+display: flex;
+gap: 8px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.list-list {
+display: flex;
+flex-wrap: wrap;
+
+}
+
 .list {
   padding-bottom: 122px;
 }
@@ -348,6 +369,10 @@ gap: 30px;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0.48px;
+  display: flex;
+  margin-left: auto;
+margin-right: auto;
+
 }
 
 .list-photo {
