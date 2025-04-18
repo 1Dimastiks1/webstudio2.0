@@ -387,6 +387,8 @@
   line-height: 26px; /* 162.5% */
   letter-spacing: 0.48px;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list-photo {
