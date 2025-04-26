@@ -24,10 +24,11 @@
   align-items: center;
 }
 .Webstudio-logo {
-  margin-right: 93px;
+  
 }
 
 .header-navigation {
+  margin-left: 93px;
   display: flex;
   width: 100%;
 }
