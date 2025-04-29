@@ -461,4 +461,5 @@
 .list-item {
   height: 404px;
   flex-shrink: 0;
+  flex-basis: calc((100% - (30px * 2)) / 3);
 }
