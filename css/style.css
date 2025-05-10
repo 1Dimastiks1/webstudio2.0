@@ -8,7 +8,7 @@
 }
 .conteiner {
   width: 1200px;
-  /* outline: solid red; */
+  border: solid red;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -119,11 +119,11 @@
 }
 
 .effect {
-  background: url(../img/backgroud.jpg);
+  background: url(../img/background.jpg);
   padding-top: 200px;
   padding-bottom: 200px;
   background-repeat: no-repeat;
-  background-position: top, bottom, left, right;
+  background-position: bottom, top, left, right ;
 
 }
 
@@ -237,7 +237,7 @@
   background: #f5f4fa;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("../img/diagram.webp");
+  background-image: url("../img/diagrama.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 70px 70px;
