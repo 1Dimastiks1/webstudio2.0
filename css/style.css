@@ -292,11 +292,13 @@
 .team {
   padding-top: 94px;
   padding-bottom: 124px;
+  background-color:#F5F4FA;
 }
 
 .team-list {
   display: flex;
   gap: 30px;
+
 }
 
 .team-title {
