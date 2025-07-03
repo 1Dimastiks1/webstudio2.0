@@ -8,12 +8,13 @@
 }
 .conteiner {
   width: 1200px;
-  /* border: solid red; */
+  border: solid red;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
+/* header */
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -59,7 +60,13 @@
   gap: 50px;
   align-items: center;
 }
+.header-contact-item:hover {
+fill: var(--subtitle-color);
+}
 
+.header-contacts-item:hover {
+fill: var(--subtitle-color);
+}
 .header-link1 {
   color: var(--text1-color);
   font-family: Roboto;
@@ -89,6 +96,12 @@
   letter-spacing: 0.28px;
 }
 
+.header-icon-email {
+width: 16px;
+height: 12px;
+flex-shrink: 0;
+}
+
 .header-email {
   color: var(--subtext-color);
   font-family: Roboto;
@@ -97,6 +110,11 @@
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+}
+.header-icon-phone {
+  width: 10px;
+height: 16px;
+flex-shrink: 0;
 }
 
 .header-tel {
@@ -118,7 +136,7 @@
   margin-right: auto;
   align-items: center;
 }
-
+/* effect */
 .effect {
   background: url(../img/background.jpg);
   padding-top: 200px;
@@ -167,7 +185,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-
+/* warning */
 .warning {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -262,7 +280,7 @@
   background-size: 70px 70px;
   margin-bottom: 30px;
 }
-
+/* engaged */
 .engaged-title {
   color: var(--text-color);
   text-align: center;
@@ -289,6 +307,7 @@
   display: block;
   background: url(<path-to-image>) rgb(255, 255, 255) 50% / cover no-repeat;
 }
+/* team */
 .team {
   padding-top: 94px;
   padding-bottom: 124px;
@@ -321,6 +340,62 @@
   margin-bottom: 30px;
 }
 
+.team-img {
+width: 20px;
+height: 20px;
+flex-shrink: 0;
+flex-shrink: 0;
+fill: var(--subtext-color);
+
+}
+.team-img:hover{
+
+ fill: var(--title-color) ;
+}
+.team-link:hover {
+border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+    width: 44px;
+    height: 44px;
+      background-color: #2196F3;
+flex-shrink: 0;
+  
+
+}
+.team-img-item:hover {
+  color: var(--title-color) ;
+}
+
+.team-img-item {
+  padding-top: 28px;
+;
+}
+.team-img-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+
+.team_img_item {
+  width: 20px;
+  height: 20px;
+  
+}
+.team-link {
+    width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--title-color);
+  fill: #afb1b8;
+}
+
 .team-subtitle {
   color: var(--text-color);
   text-align: center;
@@ -351,10 +426,63 @@
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
+/* clients */
+.clicents {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+
+}
+.clients-title {
+  color: var(--text-color);
+text-align: center;
+font-family: "Roboto";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+margin-bottom: 50px;
+}
+
+.clients_icons {
+width: 170px;
+height: 92px;
+flex-shrink: 0;
+
+}
+
+.clients_list {
+  display: flex;
+  gap: 30px;
+
+
+}
+.clients_item:hover {
+  border-radius: 4px;
+  fill:#2196F3 ;
+border: 1px solid #2196F3;
+}
+
+.clients_item {
+  width: 170px;
+height: 92px;
+  border-radius: 4px;
+border: 1px solid #AFB1B8;
+display: flex;
+justify-content: center;
+align-items: center;
+fill: #AFB1B8;
+
+}
+
+
+/* footer */
 .footer {
   background: var(--bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
+ 
 }
 
 .footer-title {
@@ -365,6 +493,23 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
+}
+.footer-link-title {
+  color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+.footer-img {
+  width: 20px;
+height: 20px;
+flex-shrink: 0;
+fill: #eee;
 }
 
 .footer-span {
@@ -403,6 +548,26 @@
   flex-shrink: 0;
   margin-top: 9px;
 }
+.footer-link-item {
+
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.10);
+  width: 44px;
+height: 44px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.footer-link-item:hover {
+    border-radius: 50%;
+  background-color: var(--subtitle-color);
+  width: 44px;
+height: 44px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
 
 .footer-tel {
   color: rgba(255, 255, 255, 0.6);
@@ -415,6 +580,19 @@
   width: 231px;
   height: 21px;
   margin-top: 9px;
+}
+.footer-link {
+  margin-left: 70px;
+   
+}
+.footer-list-link {
+   display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.footer-container {
+ display: flex;
 }
 
 .header {
