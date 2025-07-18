@@ -307,11 +307,48 @@
   gap: 30px;
 }
 
+.engaged-text1 {
+
+padding-left: 107px;
+padding-right: 107px;
+}
+.engaged-text2 {
+
+
+}
+.engaged-text3 {
+  padding-left: auto;
+padding-right: auto;
+}
+
+.engaged-box {
+width: 370px;
+height: 70px;
+position: relative;
+z-index: 678;
+background-color: #2F303ACC ;
+bottom: 68px;
+}
+.engaged-text {
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+padding-top: 27px;
+padding-bottom: 27px;
+}
+
 .engaged-photo {
   width: 370px;
   height: 294px;
   display: block;
   background: url(<path-to-image>) rgb(255, 255, 255) 50% / cover no-repeat;
+  position: relative;
 }
 /* team */
 .team {
