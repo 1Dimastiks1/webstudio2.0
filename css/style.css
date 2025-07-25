@@ -599,32 +599,190 @@ width: 20px;
   height: 21px;
   margin-top: 9px;
 }
-
+/* modal */
 .backdrop {
-    position: fixed;
+      position: fixed;
     top: 0;
     left: 0;
-    bottom: 0;
     right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.20);
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 .modal {
 width: 528px;
-height: 581px;
-flex-shrink: 0;
-border-radius: 4px;
-background: #FFF;
-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
-        padding: 50px; 
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+    padding: 14px 40px 40px 40px;
+    z-index: 1;
 
+}
+
+
+.modal_icon {
+  width: 18px;
+height: 18px;
+flex-shrink: 0;
 }
 
 .is-hidden {
   display: none;
 }
+.modal_button_close:hover {
+fill: #2196F3;
+}
+.modal_button_close {
+margin-left: 450px;
+border: solid rgba(0, 0, 0, 0.10) 1px;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.modal_svg {
+  width: 18px;
+height: 18px;
+/* outline: solid red; */
 
+}
+.modal_subtitle {
+  color: #212121;
+text-align: center;
+font-family: "Roboto";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.6px;
+margin-bottom: 12px;
+}
+.modal_form {
+  display: flex;
+  flex-direction: column;
+
+}
+.modal_label {
+  color: #757575;
+font-family: "Roboto";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+}
+.box:hover {
+  border-radius: 4px;
+border: 1px solid #2196F3;
+fill: #2196F3;
+}
+.box {
+  border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+width: 448px;
+height: 40px;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+margin-top: 4px;
+margin-bottom: 10px;
+}
+.modal_icon {
+   width: 18px;
+height: 18px;
+margin-left: 12px;
+margin-right: 15px;
+}
+.modal_input {
+outline: none;
+border: none;
+}
+.modal_comment {
+  border: none;
+outline: none;
+color: rgba(117, 117, 117, 0.50);
+font-family: "Roboto";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+width: 448px;
+height: 120px;
+flex-shrink: 0;
+padding-left: 16px;
+padding-top: 12px;
+border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+margin-top: 4px;
+margin-bottom: 10px;
+resize: none;
+
+}
+.modal_label-confirm {
+text-align: center;
+    color: rgba(117, 117, 117, .5);
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .12px;
+}
+.modal_checkbox {
+color: #757575;
+  border-radius: 4px;
+fill: #212121;
+margin-left: 7px;
+color: #757575;
+font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.42px;
+   
+}
+.input_checkbox {
+
+}
+.modal_link {
+  color: #2196F3;
+font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+.modal_button {
+  margin-top: 30px;
+  border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color: #FFF;
+text-align: center;
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+width: 200px;
+height: 50px;
+margin-left: 120px;
+}
+
+/* footer */
 .footer-link {
   margin-left: 70px;
 }
@@ -638,19 +796,18 @@ box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0
   display: flex;
 }
 .footer_field {
-display: flex;
+  margin-left: 94px;
 }
-
-
 .footer_subtitle {
-color: #FFF;
-font-family: Roboto;
+  color: #FFF;
+font-family: "Roboto";
 font-size: 14px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
+margin-bottom: 20px;
 }
 .footer_form {
   display: flex;
