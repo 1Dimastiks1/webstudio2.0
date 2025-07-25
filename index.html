@@ -70,7 +70,9 @@
       <section class="effect">
         <div class="conteiner">
           <h1 class="effect-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="effect-button" type="button">Замовити послугу</button>
+          <button class="effect-button" type="button" data-modal-open>
+            Замовити послугу
+          </button>
         </div>
       </section>
       <section class="warning">
@@ -236,7 +238,7 @@
                     <li class="team__item__icons">
                       <a href="" class="team__link">
                         <svg class="team__link__icons">
-                          <use href="./img/icons.svg#icon-linkedinFFFF"></use>
+                          <use href="./img/icons.svg#icon-linkedin"></use>
                         </svg>
                       </a>
                     </li>
@@ -437,6 +439,33 @@
           </div>
         </div>
       </div>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button type="button" data-modal-close>close</button>
+        </div>
+      </div>
+
+      <div class="footer_field">
+        <p class="footer_subtitle">Підпишіться на розсилку</p>
+        <form class="footer_form">
+          <label class="footer_label">
+            <input
+              type="email"
+              placeholder="E-mail"
+              class="footer_input"
+              required
+            />
+          </label>
+          <button class="footer_btn">
+            Підписатися
+            <svg class="footer_btn_icon">
+              <use href="./img/icons.svg#icon-icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
     </footer>
+
+    <script src="./index.js"></script>
   </body>
 </html>
