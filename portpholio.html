@@ -17,27 +17,31 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
       <div class="conteiner header-conteiner">
-        <ul class="Webstudio-logo">
-          <li class="Webstudio">
-            <img class="Webstudio" src="./image copy/WebStudio.webp" alt="" />
-          </li>
-        </ul>
+     \
+          <a class="header-logo " href="./index.html"
+            ><span class="header__logo__color">Web</span>Studio</a
+          >
         <nav class="header-navigation">
           <ul class="header-list">
             <li class="header-item">
-              <a class="header-link1" href="./index.html">Студія</a>
+              <a class="header-link1 header-link" href="./index.html">Студія</a>
             </li>
             <li class="header-item">
-              <a class="header-link2" href="./portfolio.html">Портфоліо</a>
+              <a class="header-link2 header-link" href="./portfolio.html">Портфоліо</a>
             </li>
             <li class="header-item">
-              <a class="header-link3" href="">Контакти</a>
+              <a class="header-link3 header-link" href="">Контакти</a>
             </li>
           </ul>
           <ul class="header__contact__list">
@@ -53,7 +57,7 @@
                 info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="header__contact__item">
               <a class="header__contact__link__tell" href="tel:+380961111111">
                 <svg class="header__contact__icon" width="10" height="16">
                   <use href="./img/icons.svg#icon-smartphone"></use>
