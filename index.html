@@ -17,6 +17,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -117,7 +124,7 @@
       </section>
       <section class="engaged">
         <div class="conteiner">
-          <h2 class="engaged-title">Чим ми займаємося</h2>
+          <h2 class="engaged-title" data-aos="fade-down">Чим ми займаємося</h2>
           <ul class="engaged-list">
             <li class="engaged-item">
               <img
@@ -127,7 +134,7 @@
                 width="400"
               />
               <div class="engaged-box">
-                <p class="engaged-text engaged-text1">Десктопні додатки</p>
+                <p class="engaged-text engaged-text1" data-aos="fade-down" >Десктопні додатки</p>
               </div>
             </li>
             <li class="engaged-item">
@@ -138,7 +145,7 @@
                 width="400"
               />
               <div class="engaged-box">
-                <p class="engaged-text engaged-text2">Мобільні додатки</p>
+                <p class="engaged-text engaged-text2" data-aos="fade-down" >Мобільні додатки</p>
               </div>
             </li>
             <li class="engaged-item">
@@ -149,7 +156,7 @@
                 width="400"
               />
               <div class="engaged-box">
-                <p class="engaged-text engaged-text3">Дизайнерські рішення</p>
+                <p class="engaged-text engaged-text3" data-aos="fade-down">Дизайнерські рішення</p>
               </div>
             </li>
           </ul>
@@ -157,7 +164,7 @@
       </section>
       <section class="team">
         <div class="container">
-          <h2 class="team__title">Наша команда</h2>
+          <h2 class="team__title" data-aos="fade-down" data-aos-duration="2000">Наша команда</h2>
           <div class="team__container">
             <ul class="team__list">
               <li class="team__item">
@@ -333,7 +340,7 @@
       </section>
       <section class="clicents">
         <div class="conteiner">
-          <h2 class="clients-title">Постійні клієнти</h2>
+          <h2 class="clients-title" data-aos="fade-down">Постійні клієнти</h2>
           <ul class="clients_list">
             <li class="clients_item">
               <a href="" class="clients_link">
@@ -522,5 +529,10 @@
     </footer>
 <a class="button-scroll" href="#header"><svg class="photo-scroll"><use href="./img/icons.svg#icon-scroll-up"></use></svg></a>
     <script src="./index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    </script>
   </body>
 </html>
